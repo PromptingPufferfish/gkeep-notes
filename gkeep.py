@@ -30,7 +30,7 @@ def load_keep():
     keep = gkeepapi.Keep()
     if TOKEN_FILE.exists():
         data = json.loads(TOKEN_FILE.read_text())
-        keep.authenticate(data["email"], data["token"])
+        keep.authenticate(data["Email"], data["Token"])
     else:
         print("Not logged in. Run: gkeep login <email>", file=sys.stderr)
         sys.exit(1)
@@ -55,8 +55,8 @@ def cmd_login(email):
     TOKEN_FILE.parent.mkdir(parents=True, exist_ok=True)
     TOKEN_FILE.write_text(
         json.dumps({
-            "email": email,
-            "token": keep.getMasterToken(),
+            "Email": email,
+            "Token": keep.getMasterToken(),
         })
     )
     TOKEN_FILE.chmod(0o600)
@@ -227,10 +227,13 @@ def main():
     args = sys.argv[2:]
 
     if cmd == "login":
-        if not args:
-            print("Usage: gkeep login <email>", file=sys.stderr)
-            sys.exit(1)
-        cmd_login(args[0])
+        if not TOKEN_FILE.exists():
+            if not args:
+                print("Usage: gkeep login <email>", file=sys.stderr)
+                sys.exit(1)
+            cmd_login(args[0])
+        else:
+            print("gkeep login is not needed, token file is used for authentication")
     elif cmd == "list":
         limit = 20
         if "--limit" in args:
@@ -290,7 +293,6 @@ def main():
         print(f"Unknown command: {cmd}", file=sys.stderr)
         print(__doc__)
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()
