@@ -1,7 +1,7 @@
 ---
-name: gkeep_notes
+name: gkeep-notes
 description: Google Keep notes via gkeepapi. List, search, create and manage notes. Add items to notes. User might also use the term "list" for a note.
-homepage: https://github.com/PromptingPufferfish/gkeep_notes
+homepage: https://github.com/PromptingPufferfish/gkeep-notes
 metadata: {
   "openclaw": {
     "emoji":"📝",
@@ -87,5 +87,5 @@ gkeep unpin <note_id>
 - This uses an unofficial API that reverse-engineers Google Keep
 - Could break if Google changes their internal API
 - Token stored in $HOME/.openclaw/.config/gkeep/token.json
-- First run bootstraps a local venv at $HOME/.openclaw/workspace/skills/gkeep_notes/.venv
+- First run bootstraps a local venv at $HOME/.openclaw/workspace/skills/gkeep-notes/.venv
 - Active project with recent updates (as of Jan 2026)
