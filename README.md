@@ -1,21 +1,21 @@
-# 1. Install gkeep_notes skill
+# 1. Install gkeep-notes skill
 
 - For the moment:
 ```bash
-git clone https://github.com/PromptingPufferfish/gkeep_notes $HOME/.openclaw/workspace/skills/gkeep_notes
+git clone https://github.com/PromptingPufferfish/gkeep-notes $HOME/.openclaw/workspace/skills/gkeep-notes
 ```
 
 - As soon as this skill is publishes on clawhub.ai:
 ```bash
-clawhub install gkeep_notes
+clawhub install gkeep-notes
 ```
 
 - After cloning from git/clawhub run in shell:
 ```bash
 sudo apt install python3-pip
 sudo apt install python3.12-venv
-python3 -m venv $HOME/.openclaw/workspace/skills/gkeep_notes/venv
-source $HOME/.openclaw/workspace/skills/gkeep_notes/venv/bin/activate
+python3 -m venv $HOME/.openclaw/workspace/skills/gkeep-notes/venv
+source $HOME/.openclaw/workspace/skills/gkeep-notes/venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -25,9 +25,9 @@ OAuth Token Flow is the only authentication method which worked for me with a no
 
 ## 2a. Manually create a token from the shell:
 ```bash
-python3 -m venv $HOME/.openclaw/workspace/skills/gkeep_notes/venv
-source $HOME/.openclaw/workspace/skills/gkeep_notes/venv/bin/activate
-python $HOME/.openclaw/workspace/skills/gkeep_notes/generate_token.py 
+python3 -m venv $HOME/.openclaw/workspace/skills/gkeep-notes/venv
+source $HOME/.openclaw/workspace/skills/gkeep-notes/venv/bin/activate
+python $HOME/.openclaw/workspace/skills/gkeep-notes/generate_token.py 
 ```
 
 - Enter your email, choose option 2 OAuth Token
