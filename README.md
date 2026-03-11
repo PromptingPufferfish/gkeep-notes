@@ -1,3 +1,6 @@
+# Info
+gkeep-notes is an extension of openclaw/skills/vacinc/gkeep to make it work with OAuth Token Flow authentication. New repository as openclaw/skills rejects pull requests. Release on ClawHub is outstanding. 
+
 # 1. Install gkeep-notes skill
 
 - For the moment:
