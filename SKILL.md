@@ -19,8 +19,8 @@ CLI wrapper for Google Keep using the unofficial gkeepapi.
 ### General
 gkeep.py is not a binary but a python source file. The binary is missing. As a workaround execute gkeep as follows:
 ```bash
-python3 -m venv /home/administrator/.openclaw/workspace/skills/gkeep/venv
-source /home/administrator/.openclaw/workspace/skills/gkeep/venv/bin/activate
+python3 -m venv /home/administrator/.openclaw/workspace/skills/gkeep-notes/venv
+source /home/administrator/.openclaw/workspace/skills/gkeep-notes/venv/bin/activate
 python gkeep.py <args>
 ```
 
