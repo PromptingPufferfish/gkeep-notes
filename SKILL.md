@@ -24,62 +24,57 @@ source /home/administrator/.openclaw/workspace/skills/gkeep-notes/venv/bin/activ
 python gkeep.py <args>
 ```
 
-otherwise the command is
-```bash
-gkeep <args>
-```
+### Usage of gkeep.py command
 
-### Usage of gkeep command or gkeep.py
-
-Before executing the first command, login with your Google account. This login is only needed if token does not exist. Token stored in $HOME/.openclaw/.config/gkeep/token.json:
+Before executing the first command, login with your Google account. This login is only needed if token in $HOME/.openclaw/.config/gkeep/token.json does not exist:
 ```bash
-gkeep login <your.email.goes.here@gmail.com>
+gkeep.py login <your.email.goes.here@gmail.com>
 ```
 **Important:** Use an [App Password](https://myaccount.google.com/apppasswords), not your regular password. 2FA must be enabled.
 
 List existing notes:
 ```bash
-gkeep list
-gkeep list --limit 10
+gkeep.py list
+gkeep.py list --limit 10
 ```
 
 Search for note:
 ```bash
-gkeep search "shopping"
+gkeep.py search "shopping"
 ```
 
 Get a specific note:
 ```bash
-gkeep get <note_id>
+gkeep.py get <note_id>
 ```
 
 Create a note:
 ```bash
-gkeep create "Title" "Body text here"
+gkeep.py create "Title" "Body text here"
 ```
 
 Add item to an existing note:
 ```bash
-gkeep add <note_id> <item>
+gkeep.py add <note_id> <item>
 
 Archive a note:
 ```bash
-gkeep archive <note_id>
+gkeep.py archive <note_id>
 ```
 
 Delete a note (trash):
 ```bash
-gkeep delete <note_id>
+gkeep.py delete <note_id>
 ```
 
 Pin a note:
 ```bash
-gkeep pin <note_id>
+gkeep.py pin <note_id>
 ```
 
 Unpin a note:
 ```bash
-gkeep unpin <note_id>
+gkeep.py unpin <note_id>
 ```
 
 ## Notes
