@@ -31,7 +31,7 @@ gkeep <args>
 
 ### Usage of gkeep command or gkeep.py
 
-Before executing the first command, login with your Google account:
+Before executing the first command, login with your Google account. This login is only needed if token does not exist. Token stored in $HOME/.openclaw/.config/gkeep/token.json:
 ```bash
 gkeep login <your.email.goes.here@gmail.com>
 ```
@@ -86,6 +86,5 @@ gkeep unpin <note_id>
 
 - This uses an unofficial API that reverse-engineers Google Keep
 - Could break if Google changes their internal API
-- Token stored in $HOME/.openclaw/.config/gkeep/token.json
 - First run bootstraps a local venv at $HOME/.openclaw/workspace/skills/gkeep-notes/.venv
 - Active project with recent updates (as of Jan 2026)
