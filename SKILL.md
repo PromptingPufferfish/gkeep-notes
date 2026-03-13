@@ -5,7 +5,7 @@ homepage: https://github.com/PromptingPufferfish/gkeep-notes
 metadata: {
   "openclaw": {
     "emoji":"📝",
-    "requires": {"bins":["python3","gkeep"]}
+    "requires": {"bins":["python3"]}
   }
 }
 ---
