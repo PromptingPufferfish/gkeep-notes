@@ -1,5 +1,5 @@
 # Info
-gkeep-notes is an extension of openclaw/skills/vacinc/gkeep to make it work with OAuth Token Flow authentication. New repository as openclaw/skills rejects pull requests. Release on clawhub.ai is outstanding. 
+gkeep-notes is an extension of openclaw/skills/vacinc/gkeep to make it work with authentication based on OAuth 2.0 Authorization Code Flow. New repository as openclaw/skills rejects pull requests. Release on clawhub.ai is outstanding. 
 
 # 1. Install gkeep-notes skill
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 # 2. Setup OAuth Token Flow
 
-OAuth Token Flow is the only authentication method which worked for me with a non-enterprise Google account.
+OAuth 2.0 Authorization Code Flow is the only authentication method which worked for me with a non-enterprise Google account.
 
 ## 2a. Manually create a token from the shell:
 ```bash
