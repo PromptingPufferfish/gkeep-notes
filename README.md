@@ -8,7 +8,7 @@ gkeep-notes is an extension of openclaw/skills/vacinc/gkeep to make it work with
 git clone https://github.com/PromptingPufferfish/gkeep-notes $HOME/.openclaw/workspace/skills/gkeep-notes
 ```
 
-- As soon as this skill is publishes on clawhub.ai:
+- As soon as this skill is published on clawhub.ai:
 ```bash
 clawhub install gkeep-notes
 ```
