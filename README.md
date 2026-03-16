@@ -57,7 +57,7 @@ openclaw skills list --eligible
 ```
 
 # 4. gkeep-notes skill usage
-
+Via local OpenClaw chat:
 ```bash
 /skill gkeep-notes add item "1 liter milk" to Google Keep note <note_name>
 /skill gkeep-notes give me the content of Google Keep note <note_name>
