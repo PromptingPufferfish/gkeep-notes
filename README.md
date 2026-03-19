@@ -3,7 +3,7 @@ gkeep-notes is an extension of openclaw/skills/vacinc/gkeep to make it work with
 
 # 1. Install gkeep-notes skill
 
-Run the following commands from the shell:
+Run from the shell:
 ```bash
 clawhub install gkeep-notes
 ```
