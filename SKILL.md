@@ -34,6 +34,7 @@ Use this skill when users ask to:
 1. Creates venv + installs requirements automatically
 
 Manual call of generate_token.py, then copy & paste token to file `$HOME/.config/gkeep/token.json`. 
+(Hint: when publishing the skill ClawHub claims that the user is asks to "handle sensitive session data in a nonstandard way" but OAuth 2.0 Token is the only authentication method which worked for me with a non-enterprise Google account.)
 
 ## COMMANDS
 
