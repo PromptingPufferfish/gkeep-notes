@@ -34,7 +34,7 @@ Use this skill when users ask to:
 1. Execute: `gkeep setup`
 2. Creates venv + installs requirements automatically
 
-Token saves to `~/.openclaw/.config/gkeep/token.json`
+Token saves to `~/.config/gkeep/token.json`
 
 ## COMMANDS
 
@@ -77,7 +77,7 @@ python gkeep.py [command] [args]
 
 ## NOTES
 - Unofficial API (may break if Google changes)
-- Venv auto-created at first `gkeep setup`
+- Venv auto-created during setup
 - Active project (updated Jan 2026)
 - Note IDs from `gkeep list` output
 ```
