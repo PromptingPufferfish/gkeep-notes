@@ -31,8 +31,7 @@ Use this skill when users ask to:
 **"List" = Google Keep note (not a bullet list)**
 
 ## SETUP (First Run Only)
-1. Execute: `gkeep setup`
-2. Creates venv + installs requirements automatically
+1. Creates venv + installs requirements automatically
 
 Token saves to `~/.config/gkeep/token.json`
 
@@ -70,7 +69,7 @@ python gkeep.py [command] [args]
 ## TROUBLESHOOTING
 ```
 ❌ "No token" → gkeep login your.email@gmail.com
-❌ "Module not found" → gkeep setup
+❌ "Module not found" → setup properly
 ❌ "Permission denied" → chmod +x gkeep.py
 ❌ "API changed" → Check GitHub issues
 ```
