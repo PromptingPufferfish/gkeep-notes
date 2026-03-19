@@ -39,8 +39,8 @@ python $HOME/.openclaw/workspace/skills/gkeep-notes/generate_token.py
 
 ## 2b. Create token.json:
 ```bash
-mkdir $HOME/.openclaw/.config/gkeep/
-nano $HOME/.openclaw/.config/gkeep/token.json
+mkdir $HOME/.config/gkeep/
+nano $HOME/.config/gkeep/token.json
 ```
 
 - paste token into the file
