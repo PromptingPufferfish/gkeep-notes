@@ -22,9 +22,9 @@ source $HOME/.openclaw/workspace/skills/gkeep-notes/venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# 2. Setup OAuth Token Flow
+# 2. Setup OAuth 2.0 Token Flow
 
-OAuth 2.0 Authorization Code Flow is the only authentication method which worked for me with a non-enterprise Google account.
+When publishing the skill ClawHub claims that the user is asks to "handle sensitive session data in a nonstandard way" but OAuth 2.0 Token is the only authentication method which worked for me with a non-enterprise Google account.
 
 ## 2a. Manually create a token from the shell:
 ```bash
