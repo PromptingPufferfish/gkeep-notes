@@ -2,7 +2,7 @@
 name: gkeep-notes
 description: Google Keep notes via gkeepapi. List, search, create, manage notes. Add items to notes. Supports authorization via OAuth 2.0 Token.
 slash: gkeep-notes
-version: 1.0.12
+version: 1.0.13
 author: PromptingPufferfish
 homepage: https://github.com/PromptingPufferfish/gkeep-notes
 metadata:
@@ -34,9 +34,6 @@ Use this skill when users ask to:
 1. Creates venv + installs requirements automatically
 
 Manual call of generate_token.py, then copy & paste token to file `$HOME/.config/gkeep/token.json`. 
-(Hint: when publishing the skill ClawHub claims that the user is asks to "handle sensitive session data in a nonstandard way" but OAuth 2.0 Token is the only authentication method which worked for me with a non-enterprise Google account.)
-
-## COMMANDS
 
 ```
 gkeep.py list [--limit 10]                    # List notes
