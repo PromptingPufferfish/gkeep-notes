@@ -33,7 +33,7 @@ Use this skill when users ask to:
 ## SETUP (First Run Only)
 1. Creates venv + installs requirements automatically
 
-Manual call of generate_token.py, then copy & paste token to file `$HOME/.openclaw/.config/gkeep/token.json`. 
+Manual call of generate_token.py, then copy & paste token to file `$HOME/.config/gkeep/token.json`. 
 
 ## COMMANDS
 
