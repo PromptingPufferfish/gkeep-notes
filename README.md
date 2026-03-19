@@ -3,17 +3,10 @@ gkeep-notes is an extension of openclaw/skills/vacinc/gkeep to make it work with
 
 # 1. Install gkeep-notes skill
 
-- For the moment:
-```bash
-git clone https://github.com/PromptingPufferfish/gkeep-notes $HOME/.openclaw/workspace/skills/gkeep-notes
-```
-
-- As soon as this skill is published on clawhub.ai:
+Run the following commands from the shell:
 ```bash
 clawhub install gkeep-notes
 ```
-
-- After cloning from git/clawhub run in shell:
 ```bash
 sudo apt install python3-pip
 sudo apt install python3.12-venv
