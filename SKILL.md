@@ -33,7 +33,7 @@ Use this skill when users ask to:
 ## SETUP (First Run Only)
 1. Creates venv + installs requirements automatically
 
-Token saves to `~/.config/gkeep/token.json`
+Token saves to `$HOME/.openclaw/.config/gkeep/token.json`
 
 ## COMMANDS
 
