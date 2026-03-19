@@ -1,6 +1,6 @@
 ---
 name: gkeep-notes
-description: Google Keep notes via gkeepapi. List, search, create, manage notes. Add items to notes. "List" means note.
+description: Google Keep notes via gkeepapi. List, search, create, manage notes. Add items to notes.
 slash: gkeep-notes
 version: 1.0.0
 author: PromptingPufferfish
