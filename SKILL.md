@@ -1,6 +1,6 @@
 ---
 name: gkeep-notes
-description: Google Keep notes via gkeepapi. List, search, create, manage notes. Add items to notes. Supports OAuth 2.0 Authorization Code Flow.
+description: Google Keep notes via gkeepapi. List, search, create, manage notes. Add items to notes. Supports authorization via OAuth 2.0 Token.
 slash: gkeep-notes
 version: 1.0.0
 author: PromptingPufferfish
